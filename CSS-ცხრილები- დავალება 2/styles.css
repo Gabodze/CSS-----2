@@ -1,0 +1,282 @@
+@font-face {
+    font-family:'Inter' ;
+    src: url(./fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family:'Inter' ;
+    src: url(./fonts/Inter-Medium.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* table 1 */
+.Search{
+    margin-left: 114px;
+    margin-top: 38px;
+}
+h1 {
+    margin-top: 38px;
+    margin-left: 114px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.table-1{
+    margin-left: 114px;
+    margin-top: 28px;
+}
+
+thead{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#ID{
+    margin-right: 18px;
+    width: 201px;
+    height: 45px fixed;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+
+}
+
+#Title{
+    margin-right: 18px;
+    width: 593px;
+    height: 45px fixed;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    padding: 16px;
+}
+
+#Created-at{
+    margin-right: 18px;
+    width: 201px;
+    height: 45px fixed;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    padding: 16px;
+}
+
+#Action{
+    text-align: center;
+}
+#Action-button {
+    width: 115px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #FFD43A;
+    border: 0;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+}
+
+::placeholder{
+    color: #EBEBEB;
+}
+
+
+
+/* table 2 */
+/* .table-2{
+    margin-left: 114px;
+    margin-top: 23px;
+}
+
+
+.thead-2{
+    border: 1px solid #DADADA;
+    background-color: #F9F9F9;
+}
+
+
+.id{
+    border: 1px solid #DADADA;
+
+    width: 72px;
+    height: 57px;
+    text-align: center;
+}
+
+.title{
+    border: 1px solid #DADADA;
+    width: 444px;
+    height: 57px fixed;
+
+} */
+
+.News-Table{
+    margin-top: 66px;
+    margin-left: 114px;
+}
+.table-2{
+    margin-left: 114px;
+    margin-top: 23px;
+    margin-bottom: 517px;
+    border-collapse: collapse;
+
+
+}
+
+h1{
+    margin-top: 85px;
+    margin-left: 141px;
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+thead{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+
+}
+.Id{
+    width: 72px;
+    height: 57px;
+    border: 1px solid #DADADA;
+    text-align: center;
+    background-color: #F9F9F9;
+
+}
+
+.head-title{
+    padding-left: 23px;
+    width: 444px;
+    height: 57px;
+    border: 1px solid #DADADA;
+    background-color: #F9F9F9;
+    text-align: left;
+
+}
+
+.head-create{
+    width: 276px;
+    height: 57px;
+    border: 1px solid #DADADA;
+    background-color: #F9F9F9;
+    text-align: center;
+
+}
+
+.head-action{
+    width: 251px;
+    height: 57px;
+    border: 1px solid #DADADA;
+    background-color: #F9F9F9;
+    text-align: center;
+    
+}
+
+.head-action-red{
+    width: 251px;
+    height: 57px;
+    border: 1px solid #DADADA;
+    background-color: #F9F9F9;
+    text-align: center;
+    
+}
+
+
+
+
+.number{
+    width: 72px;
+    height: 57px;
+    border: 1px solid #DADADA;
+    text-align: center;
+    padding: 1px;
+}
+
+.Title {
+    margin-top: 11px;
+    padding-left: 23px;
+    border: 1px solid #DADADA;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+
+
+}
+
+
+.number{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+}
+
+
+.Created-at{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: #FF0000;
+    border: 1px solid #DADADA;
+}
+
+
+.edit{
+    border: 1px solid #DADADA;
+    text-align: center;
+}
+
+.edit-red{
+    border: 1px solid #DADADA;
+    text-align: center;
+}
+button{
+    width: 115px;
+    height: 36px;
+    background-color: #FFD43A;
+    border: 0;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+
+}
+.red-button{
+    width: 115px;
+    height: 36px;
+    background-color: #FF0000;
+    border: 0;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+
+}
+
+
+
+
+
